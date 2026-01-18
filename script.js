@@ -1,6 +1,6 @@
 let radiusInput = document.getElementById("radius")
 let valumeInput = document.getElementById("volume")
-let h3 = document.querySelector("h3")
+// let h3 = document.querySelector("h3")
 
 function volume_sphere(e) {
 	e.preventDefault()
@@ -8,8 +8,8 @@ function volume_sphere(e) {
 	
 		let calVolume = (4/3) * (Math.PI * radius**3)
 	
-		h3.innerText = calVolume.toFixed(4)
-		volume.textContent = calVolume.toFixed(4)
+		// h3.innerText = calVolume.toFixed(4)
+		volume.value = calVolume.toFixed(4)
 	
 } 
 
